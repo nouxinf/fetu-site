@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+nav {
+    background-color: oklch(55.63% 0.222 262.02);
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    font-weight: 600;
+    color: white;
+    display: inline;
+    float: left;
+    width: 100%;
+}
+a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+  
+a:hover::before {
+    transform: scaleX(1);
+}
+  
+.topnav {
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: .1rem 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
