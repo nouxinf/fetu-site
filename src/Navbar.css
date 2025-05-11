@@ -9,6 +9,7 @@ nav {
     display: inline;
     float: left;
     width: 100%;
+    position: fixed;
 }
 a {
     position: relative;

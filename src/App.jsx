@@ -5,8 +5,10 @@ import "./App.css"
 function App() {
   return (
     <>
+      <div className="flexcontainer">
       <Navbar />
       <Banner />
+      </div>
     </>
   )
 }
