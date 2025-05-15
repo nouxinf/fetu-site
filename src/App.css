@@ -2,7 +2,3 @@
 * {
     font-family: "Lato", Arial, sans-serif;
 }
-.flexcontainer {
-    display: flex;
-    flex-direction: column;
-}
