@@ -2,7 +2,8 @@
 
 nav {
     background-color: oklch(55.63% 0.222 262.02);
-    height: 10vh;
+    height: auto;
+    min-height: 10vh;
     font-weight: 600;
     color: white;
     display: inline;
@@ -11,6 +12,7 @@ nav {
     position: sticky;
     top: 0;
     width: 100%;
+    background-size: 100%;
 }
 a {
     position: relative;
