@@ -7,10 +7,13 @@ const Navbar = () => {
         <nav className="topnav">
             <ul>
                 <li>
-                    <a>Home</a>
+                    <a>{t("nav.home")}</a>
                 </li>
                 <li>
-                    <a>About</a>
+                    <a>{t("nav.about")}</a>
+                </li>
+                <li>
+                    <a>{t("nav.map")}</a>
                 </li>
             </ul>
         </nav>

@@ -1,13 +1,7 @@
 {
     "nav": {
         "home": "Home",
-        "map": "Map",
-        "about": "About"
-    },
-    "banner": {
-        "1": "Full",
-        "2": "Europe",
-        "3": "Transit",
-        "4": "Union"
+        "about": "About",
+        "map": "Map"
     }
 }
