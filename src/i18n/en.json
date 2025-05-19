@@ -3,5 +3,9 @@
         "home": "Home",
         "about": "About",
         "map": "Map"
+    },
+    "about": {
+        "heading": "What is FETU?",
+        "body": "The Full Europe Transit Union is a Metrodreamin' community project with the goal of mapping all of Europe's public transportation in Metrodreamin'. We do this by coordinating maps, and possibly merging them if such a feature releases."
     }
 }
